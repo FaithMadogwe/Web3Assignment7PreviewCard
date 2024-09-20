@@ -32,3 +32,20 @@ body {
 .tag {
     background-color: #f7cd26;
 }
+
+@media screen (max-width: 600px) {
+    .content, .img, .tag, {
+        width: 100%;
+    }
+
+    .container {
+        width: 54%;
+    }
+}
+
+   @media screen (min-width: 601px) and (max-width: 850px) {
+    .container {
+        width: 44%;
+    }
+   }
+
